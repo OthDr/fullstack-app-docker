@@ -120,6 +120,24 @@ new Client("Hjira", "Saad", "hjira@example.com")
 
 ---
 
+### ✅ Lancer les tests (Backend)
+
+Pour exécuter les tests unitaires sur le backend Client-API :
+
+```bash
+cd backend
+./mvnw test
+```
+
+Ou si Maven est installé globalement :
+
+```bash
+mvn test
+```
+
+
+---
+
 ## 🧼 Clean Up (Docker)
 
 To stop and remove containers + volume:
